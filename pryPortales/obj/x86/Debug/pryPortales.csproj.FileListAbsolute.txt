@@ -1,0 +1,170 @@
+C:\Users\Equipo Encargado\AppData\Local\Temporary Projects\pryPortales\obj\x86\Debug\pryPortales.frmPrincipal.resources
+C:\Users\Equipo Encargado\AppData\Local\Temporary Projects\pryPortales\obj\x86\Debug\pryPortales.Properties.Resources.resources
+C:\Users\Equipo Encargado\AppData\Local\Temporary Projects\pryPortales\obj\x86\Debug\pryPortales.csproj.GenerateResource.Cache
+C:\Users\Equipo Encargado\AppData\Local\Temporary Projects\pryPortales\bin\Debug\pryPortales.exe
+C:\Users\Equipo Encargado\AppData\Local\Temporary Projects\pryPortales\bin\Debug\pryPortales.pdb
+C:\Users\Equipo Encargado\AppData\Local\Temporary Projects\pryPortales\obj\x86\Debug\pryPortales.exe
+C:\Users\Equipo Encargado\AppData\Local\Temporary Projects\pryPortales\obj\x86\Debug\pryPortales.pdb
+J:\pryPortales\pryPortales\obj\x86\Debug\pryPortales.exe
+J:\pryPortales\pryPortales\obj\x86\Debug\pryPortales.pdb
+J:\pryPortales\pryPortales\bin\Debug\pryPortales.exe
+J:\pryPortales\pryPortales\bin\Debug\pryPortales.pdb
+J:\pryPortales\pryPortales\obj\x86\Debug\pryPortales.frmPrincipal.resources
+J:\pryPortales\pryPortales\obj\x86\Debug\pryPortales.Properties.Resources.resources
+J:\pryPortales\pryPortales\obj\x86\Debug\pryPortales.csproj.GenerateResource.Cache
+E:\Todo\Ies Siglo XXI\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\pryPortales\pryPortales\obj\x86\Debug\pryPortales.exe
+E:\Todo\Ies Siglo XXI\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\pryPortales\pryPortales\obj\x86\Debug\pryPortales.pdb
+I:\TP 1\pryPortales\pryPortales\obj\x86\Debug\pryPortales.exe
+I:\TP 1\pryPortales\pryPortales\obj\x86\Debug\pryPortales.pdb
+D:\Alumno\Desktop\Prystupczuk\pryPortales\pryPortales\obj\x86\Debug\pryPortales.exe
+D:\Alumno\Desktop\Prystupczuk\pryPortales\pryPortales\obj\x86\Debug\pryPortales.pdb
+D:\Alumno\Desktop\Prystupczuk\pryPortales\pryPortales\bin\Debug\pryPortales.exe
+D:\Alumno\Desktop\Prystupczuk\pryPortales\pryPortales\bin\Debug\pryPortales.pdb
+D:\Alumno\Desktop\Prystupczuk\pryPortales\pryPortales\obj\x86\Debug\pryPortales.frmPrincipal.resources
+D:\Alumno\Desktop\Prystupczuk\pryPortales\pryPortales\obj\x86\Debug\pryPortales.Properties.Resources.resources
+D:\Alumno\Desktop\Prystupczuk\pryPortales\pryPortales\obj\x86\Debug\pryPortales.csproj.GenerateResource.Cache
+D:\Alumno\Desktop\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.exe
+D:\Alumno\Desktop\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.pdb
+I:\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.exe
+I:\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.pdb
+I:\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPrincipal.resources
+I:\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.Properties.Resources.resources
+I:\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csproj.GenerateResource.Cache
+I:\TP 1\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.exe
+I:\TP 1\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.pdb
+F:\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.exe
+F:\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.pdb
+F:\TP 1\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.exe
+F:\TP 1\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.pdb
+F:\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPrincipal.resources
+F:\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.Properties.Resources.resources
+F:\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csproj.GenerateResource.Cache
+E:\Todo\Ies Siglo XXI\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.exe
+E:\Todo\Ies Siglo XXI\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.pdb
+E:\Todo\Ies Siglo XXI\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.exe
+E:\Todo\Ies Siglo XXI\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.pdb
+E:\Todo\Ies Siglo XXI\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPrincipal.resources
+E:\Todo\Ies Siglo XXI\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.Properties.Resources.resources
+E:\Todo\Ies Siglo XXI\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csproj.GenerateResource.Cache
+E:\Todo\Ies Siglo XXI\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPantalla.resources
+E:\Todo\Ies Siglo XXI\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csprojResolveAssemblyReference.cache
+I:\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.exe
+I:\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.pdb
+I:\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.exe
+I:\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.pdb
+I:\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csprojResolveAssemblyReference.cache
+I:\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPrincipal.resources
+I:\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPantalla.resources
+I:\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.Properties.Resources.resources
+I:\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csproj.GenerateResource.Cache
+F:\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.exe
+F:\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.pdb
+F:\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.exe
+F:\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.pdb
+F:\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csprojResolveAssemblyReference.cache
+F:\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPrincipal.resources
+F:\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPantalla.resources
+F:\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.Properties.Resources.resources
+F:\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csproj.GenerateResource.Cache
+E:\Todo\Carrera Profesional\Ies Siglo XXI\VIDEOJUEGOS\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.exe
+E:\Todo\Carrera Profesional\Ies Siglo XXI\VIDEOJUEGOS\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.pdb
+E:\Todo\Carrera Profesional\Ies Siglo XXI\VIDEOJUEGOS\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.exe
+E:\Todo\Carrera Profesional\Ies Siglo XXI\VIDEOJUEGOS\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.pdb
+E:\Todo\Carrera Profesional\Ies Siglo XXI\VIDEOJUEGOS\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csprojResolveAssemblyReference.cache
+E:\Todo\Carrera Profesional\Ies Siglo XXI\VIDEOJUEGOS\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPrincipal.resources
+E:\Todo\Carrera Profesional\Ies Siglo XXI\VIDEOJUEGOS\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPantalla.resources
+E:\Todo\Carrera Profesional\Ies Siglo XXI\VIDEOJUEGOS\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.Properties.Resources.resources
+E:\Todo\Carrera Profesional\Ies Siglo XXI\VIDEOJUEGOS\4° SEMESTRE\ESTRUCTURA DE DATOS\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csproj.GenerateResource.Cache
+I:\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csprojResolveAssemblyReference.cache
+I:\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPantalla.resources
+L:\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.exe
+L:\TP 1\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.exe
+L:\TP 1\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.pdb
+L:\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csprojResolveAssemblyReference.cache
+L:\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPrincipal.resources
+L:\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPantalla.resources
+L:\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.Properties.Resources.resources
+L:\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csproj.GenerateResource.Cache
+L:\TP 1\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.pdb
+E:\Todo\Carrera Profesional\Ies Siglo XXI\VIDEOJUEGOS\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.exe
+E:\Todo\Carrera Profesional\Ies Siglo XXI\VIDEOJUEGOS\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.pdb
+E:\Todo\Carrera Profesional\Ies Siglo XXI\VIDEOJUEGOS\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.exe
+E:\Todo\Carrera Profesional\Ies Siglo XXI\VIDEOJUEGOS\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.pdb
+E:\Todo\Carrera Profesional\Ies Siglo XXI\VIDEOJUEGOS\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csprojResolveAssemblyReference.cache
+E:\Todo\Carrera Profesional\Ies Siglo XXI\VIDEOJUEGOS\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPrincipal.resources
+E:\Todo\Carrera Profesional\Ies Siglo XXI\VIDEOJUEGOS\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPantalla.resources
+E:\Todo\Carrera Profesional\Ies Siglo XXI\VIDEOJUEGOS\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.Properties.Resources.resources
+E:\Todo\Carrera Profesional\Ies Siglo XXI\VIDEOJUEGOS\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csproj.GenerateResource.Cache
+D:\Alumno\Desktop\TRABAJO PRACTICO GENERAL\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.exe
+D:\Alumno\Desktop\TRABAJO PRACTICO GENERAL\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.pdb
+D:\Alumno\Desktop\TRABAJO PRACTICO GENERAL\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.exe
+D:\Alumno\Desktop\TRABAJO PRACTICO GENERAL\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.pdb
+D:\Alumno\Desktop\TRABAJO PRACTICO GENERAL\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csprojResolveAssemblyReference.cache
+D:\Alumno\Desktop\TRABAJO PRACTICO GENERAL\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPrincipal.resources
+D:\Alumno\Desktop\TRABAJO PRACTICO GENERAL\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPantalla.resources
+D:\Alumno\Desktop\TRABAJO PRACTICO GENERAL\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.Properties.Resources.resources
+D:\Alumno\Desktop\TRABAJO PRACTICO GENERAL\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csproj.GenerateResource.Cache
+J:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.exe
+J:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.pdb
+J:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.exe
+J:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.pdb
+J:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csprojResolveAssemblyReference.cache
+J:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPrincipal.resources
+J:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPantalla.resources
+J:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.Properties.Resources.resources
+J:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csproj.GenerateResource.Cache
+I:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.exe
+I:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.pdb
+I:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.exe
+I:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.pdb
+I:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csprojResolveAssemblyReference.cache
+I:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPrincipal.resources
+I:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPantalla.resources
+I:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.Properties.Resources.resources
+I:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csproj.GenerateResource.Cache
+G:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.exe
+G:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.pdb
+G:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.exe
+G:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.pdb
+G:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csprojResolveAssemblyReference.cache
+G:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPrincipal.resources
+G:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPantalla.resources
+G:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.Properties.Resources.resources
+G:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csproj.GenerateResource.Cache
+F:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.exe
+F:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.pdb
+F:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.exe
+F:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.pdb
+F:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csprojResolveAssemblyReference.cache
+F:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPrincipal.resources
+F:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPantalla.resources
+F:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.Properties.Resources.resources
+F:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csproj.GenerateResource.Cache
+F:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmEnfrentamiento.resources
+G:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmEnfrentamiento.resources
+K:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.exe
+K:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.pdb
+K:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.exe
+K:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.pdb
+K:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csprojResolveAssemblyReference.cache
+K:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmEnfrentamiento.resources
+K:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPrincipal.resources
+K:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPantalla.resources
+K:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.Properties.Resources.resources
+K:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csproj.GenerateResource.Cache
+G:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmExtra.resources
+F:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmExtra.resources
+E:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.exe
+E:\4° SEMESTRE\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.pdb
+E:\Users\diegoprystu\OneDrive\Educacion\IES\SVV\4°\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.exe
+E:\Users\diegoprystu\OneDrive\Educacion\IES\SVV\4°\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\bin\Debug\pryPortales.pdb
+E:\Users\diegoprystu\OneDrive\Educacion\IES\SVV\4°\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csprojAssemblyReference.cache
+E:\Users\diegoprystu\OneDrive\Educacion\IES\SVV\4°\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmEnfrentamiento.resources
+E:\Users\diegoprystu\OneDrive\Educacion\IES\SVV\4°\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmExtra.resources
+E:\Users\diegoprystu\OneDrive\Educacion\IES\SVV\4°\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPrincipal.resources
+E:\Users\diegoprystu\OneDrive\Educacion\IES\SVV\4°\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.frmPantalla.resources
+E:\Users\diegoprystu\OneDrive\Educacion\IES\SVV\4°\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.Properties.Resources.resources
+E:\Users\diegoprystu\OneDrive\Educacion\IES\SVV\4°\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csproj.GenerateResource.cache
+E:\Users\diegoprystu\OneDrive\Educacion\IES\SVV\4°\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csproj.CoreCompileInputs.cache
+E:\Users\diegoprystu\OneDrive\Educacion\IES\SVV\4°\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.exe
+E:\Users\diegoprystu\OneDrive\Educacion\IES\SVV\4°\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.pdb

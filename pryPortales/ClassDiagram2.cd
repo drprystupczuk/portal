@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="pryPortales.frmExtra" Collapsed="true">
+    <Position X="1.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAggAAAAAAAA=</HashCode>
+      <FileName>frmExtra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pryPortales.ClaseCola" Collapsed="true">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAABAAAAIAAEAAIAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>ClaseCola.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pryPortales.claseNivel" Collapsed="true">
+    <Position X="3" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEAAAQAAAAAgCAAAAAAACgIEAIAAAAAAAIAAABEACA=</HashCode>
+      <FileName>claseNivel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pryPortales.ClaseNodo" Collapsed="true">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>ClaseNodo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pryPortales.frmEnfrentamiento" Collapsed="true">
+    <Position X="1.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYgIBAQAACABAIAgAACHBCAHAAAAIBAAIAoRAAACECA=</HashCode>
+      <FileName>frmEnfrentamiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pryPortales.frmPantalla" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAEAAAAgAAQAAAAA=</HashCode>
+      <FileName>frmPantallaDeJuego.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pryPortales.frmPrincipal" Collapsed="true">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAQAACQAAABAAACAAgACAAAAJIAgAACAAABSQKA=</HashCode>
+      <FileName>frmPrincipal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pryPortales.Program" Collapsed="true">
+    <Position X="1.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pryPortales.Properties.Resources" Collapsed="true">
+    <Position X="3" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQQAQAAAAAAgAAAABABEAAAAQAAAgACAAAgIAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pryPortales.Properties.Settings" Collapsed="true">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pryPortales.ClaseNivelExtra">
+    <Position X="6.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClaseNivelExtra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
