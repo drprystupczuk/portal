@@ -1,7 +1,7 @@
 # [EN] :blue_heart:Portal:orange_heart: Tribute  :video_game::running_woman:
 
 ### Description: :rocket:
-_Desktop application using Visual Studio. You can see the [video]((https://www.youtube.com/watch?v=vmsC-1XVoJ8)._
+_Desktop application using Visual Studio. You can see the [video](https://www.youtube.com/watch?v=vmsC-1XVoJ8)._
 
 ### About me ✒️
 :man_technologist: Diego Prystupczuk - Fullstack developer
