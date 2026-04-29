@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClaseCola.cs" />
-    <Compile Include="claseNivel.cs" />
+    <Compile Include="ClaseNivel.cs" />
     <Compile Include="ClaseNivelExtra.cs" />
     <Compile Include="ClaseNodo.cs" />
     <Compile Include="frmExtra.cs">

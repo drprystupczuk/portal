@@ -1,25 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
-using System.IO;
 
 namespace pryPortales
 {
     public partial class frmPrincipal : Form
     {
-        
+
         //declaracion de variables
         static public int personaje = 1;
         static public int dificultad;
         static public string ADTamaño;
         static public string ADExtra;
-       
-        
+
+
         public frmPrincipal()
         {
             InitializeComponent();
@@ -29,8 +23,8 @@ namespace pryPortales
         {
             this.CenterToScreen();
             ADExtra = "Extra.txt";
-             dificultad = 1;
-            
+            dificultad = 1;
+
         }
 
         private void lblDificultad_Click(object sender, EventArgs e)
@@ -39,7 +33,7 @@ namespace pryPortales
 
 
             dificultad++;
-            
+
             #region ElegirDificultad
             switch (dificultad)
             {
@@ -77,7 +71,7 @@ namespace pryPortales
             //cmdIniciar.Enabled = false;
             //lblDificultad.Enabled = false;
 
-            
+
         }
 
         private void gpbPersonaje_Enter(object sender, EventArgs e)
@@ -114,9 +108,6 @@ namespace pryPortales
             frmExtra Extra = new frmExtra();
             Extra.Show();
         }
-
-
-
 
     }
 }

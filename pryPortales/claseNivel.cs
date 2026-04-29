@@ -1,16 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Data;
-using System.Windows.Forms;
 using System.Drawing;
 using System.IO;
+using System.Linq;
+using System.Windows.Forms;
 
 namespace pryPortales
 {
-    public class claseNivel
+    public class ClaseNivel
     {
 
         public PictureBox[,] matEscenario;
@@ -26,23 +23,17 @@ namespace pryPortales
         public String ADTamaño;
         public int intDirección;
 
-        
-
-        //CONSTRUCTOR
-        public claseNivel()
+        public ClaseNivel()
         {
             matEscenario = null;
-            
         }
 
         //DESTRUCTOR
-        ~claseNivel()
+        ~ClaseNivel()
         {
         }
 
         #region CARGAR ESCENARIO
-
-        
         public void CrearEscenarioAlmacenado(Form PantallaDeJuego)
         {
             Dificultad = frmPrincipal.dificultad;
@@ -79,66 +70,50 @@ namespace pryPortales
                     {
                         case 0:
                             matEscenario[vFila, vColumna].Image = null;
-                            matEscenario[vFila, vColumna].SendToBack();
+                            matEscenario[vFila, vColumna].BackgroundImage = null;
                             matEscenario[vFila, vColumna].Tag = "Piso";
-                            matEscenario[vFila, vColumna].Tag.ToString();
                             break;
 
                         case 1:
-                            matEscenario[vFila, vColumna].Image = Properties.Resources.portalblue;
-                            matEscenario[vFila, vColumna].SendToBack();
+                            matEscenario[vFila, vColumna].BackgroundImage = Properties.Resources.portalblue;
+                            matEscenario[vFila, vColumna].BackgroundImageLayout = ImageLayout.Stretch;
                             matEscenario[vFila, vColumna].Tag = "Portal Azul";
-                            matEscenario[vFila, vColumna].Tag.ToString();
                             break;
                         case 2:
-                            matEscenario[vFila, vColumna].Image = Properties.Resources.Portal_orange;
-                            matEscenario[vFila, vColumna].SendToBack();
+                            matEscenario[vFila, vColumna].BackgroundImage = Properties.Resources.Portal_orange;
+                            matEscenario[vFila, vColumna].BackgroundImageLayout = ImageLayout.Stretch;
                             matEscenario[vFila, vColumna].Tag = "Portal Naranja";
-                            matEscenario[vFila, vColumna].Tag.ToString();
                             break;
                         case 3:
-                            matEscenario[vFila, vColumna].Image = Properties.Resources.cubodecompañia;
-                            matEscenario[vFila, vColumna].SendToBack();
+                            matEscenario[vFila, vColumna].BackgroundImage = Properties.Resources.cubodecompañia;
+                            matEscenario[vFila, vColumna].BackgroundImageLayout = ImageLayout.Stretch;
                             matEscenario[vFila, vColumna].Tag = "Cubo de Compañía";
-                            matEscenario[vFila, vColumna].Tag.ToString();
                             break;
                         case 4:
-                            matEscenario[vFila, vColumna].Image = Properties.Resources.GLaDOS_Potato;
-                            matEscenario[vFila, vColumna].SendToBack();
+                            matEscenario[vFila, vColumna].BackgroundImage = Properties.Resources.GLaDOS_Potato;
+                            matEscenario[vFila, vColumna].BackgroundImageLayout = ImageLayout.Stretch;
                             matEscenario[vFila, vColumna].Tag = "Glados";
-                            matEscenario[vFila, vColumna].Tag.ToString();
                             break;
                         case 5:
-                            matEscenario[vFila, vColumna].Image = Properties.Resources.turret;
-                            matEscenario[vFila, vColumna].SendToBack();
+                            matEscenario[vFila, vColumna].BackgroundImage = Properties.Resources.turret;
+                            matEscenario[vFila, vColumna].BackgroundImageLayout = ImageLayout.Stretch;
                             matEscenario[vFila, vColumna].Tag = "Torreta";
-                            matEscenario[vFila, vColumna].Tag.ToString();
                             break;
                         case 9:
-                            #region Selecciona Personaje
                             if (frmPrincipal.personaje == 1)
                             {
                                 matEscenario[vFila, vColumna].Image = Properties.Resources.chell;
-
                             }
-                            else
+                            else if (frmPrincipal.personaje == 2)
                             {
-                                if (frmPrincipal.personaje == 2)
-                                {
-                                    matEscenario[vFila, vColumna].Image = Properties.Resources.wheatley;
-
-                                }
-
+                                matEscenario[vFila, vColumna].Image = Properties.Resources.wheatley;
                             }
-                            #endregion
-                            matEscenario[vFila, vColumna].Tag = "Piso"; //El personaje esta sobre el piso por eso el tag
+                            matEscenario[vFila, vColumna].Tag = "Piso";
                             matEscenario[vFila, vColumna].BringToFront();
                             break;
                         default:
                             matEscenario[vFila, vColumna].Image = null;
-                            matEscenario[vFila, vColumna].SendToBack();
-                            matEscenario[vFila, vColumna].Tag.ToString();
-                            
+                            matEscenario[vFila, vColumna].BackgroundImage = null;
                             break;
                     }
                     #endregion
@@ -203,7 +178,7 @@ namespace pryPortales
                     vFila = 0;
                     vColumna = 0;
                     //POSICION PORTAL AZUL
-                     varPPortalAColumna = 5;
+                    varPPortalAColumna = 5;
                     varPPortalAFila = 3;
                     //POSICION PORTAL NARANJA
                     varPPortalNColumna = 4;
@@ -217,7 +192,7 @@ namespace pryPortales
                     vColumna = 1;
                     //POSICION PORTAL AZUL
                     varPPortalAColumna = 9;
-                    varPPortalAFila =0;
+                    varPPortalAFila = 0;
                     //POSICION PORTAL NARANJA
                     varPPortalNColumna = 0;
                     varPPortalNFila = 7;
@@ -227,776 +202,183 @@ namespace pryPortales
             }
             #endregion
         }
-            
+
         #endregion
 
         #region MovimientoPJ
 
         public void MovimientoPJ(KeyEventArgs e)
         {
-            
-            
-            #region Pregunta tecla presionada por el usuario
             switch (e.KeyCode)
             {
-                #region UP
                 case Keys.Up:
-                    
-                //Mientras la Fila sea mayor a 0 podrá seguir subiendo
-                    if (vFila > 0)
-                    {
-                        vFila -= 1;
-                        #region Pregunto que hay en la siguiente posición y hago el procedimiento correspondiente
-                        switch (matEscenario[vFila, vColumna].Tag.ToString())
-                        {
-                            #region Piso
-                            case "Piso":
-                                matEscenario[vFila, vColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                matEscenario[varPJFila, varPJColumna].Image = null;
-                                varPJFila = vFila;
-                                matEscenario[varPJFila, varPJColumna].BringToFront();
-
-                                break;
-                            #endregion
-
-                            #region Portal Azul
-                            case "Portal Azul":
-                                
-                                matEscenario[varPPortalNFila, varPPortalNColumna].Image = matEscenario[varPJFila, varPJColumna].Image; //esto esta bien
-                                matEscenario[varPJFila, varPJColumna].Image = null;
-                                varPJFila = varPPortalNFila;
-                                varPJColumna = varPPortalNColumna;
-                                vFila = varPPortalNFila;
-                                vColumna = varPPortalNColumna;
-                                 
-                                matEscenario[varPJFila, varPJColumna].BringToFront();
-
-                                break;
-                            #endregion
-
-                            #region Portal Naranja
-                            case "Portal Naranja":
-                                       matEscenario[varPPortalAFila, varPPortalAColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                       matEscenario[varPJFila, varPJColumna].Image = null;
-                                       varPJFila = varPPortalAFila;
-                                       varPJColumna = varPPortalAColumna;
-                                       vFila = varPPortalAFila;
-                                       vColumna = varPPortalAColumna;
-                                       matEscenario[varPJFila, varPJColumna].BringToFront();;
-                                break;
-                            #endregion
-
-                            #region Cubo de Compañía
-                            case "Cubo de Compañía":
-                                MessageBox.Show("Aquí hay un cubo de compañia, intenta avanzar por otro sector");
-                                break;
-                            #endregion
-
-                            #region Glados
-                            case "Glados":
-                                MessageBox.Show("¡Ganaste!");
-                                frmPrincipal.ActiveForm.Close();
-                                break;
-                            #endregion
-
-                            #region Torreta
-                            case "Torreta":
-                                frmEnfrentamiento Enfrentamiento = new frmEnfrentamiento();
-                                Enfrentamiento.Show();
-
-
-                                if (frmEnfrentamiento.varPuntosPJ > 0)
-                                {
-                                    matEscenario[vFila, vColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                    matEscenario[varPJFila, varPJColumna].Image = null;
-                                    matEscenario[vFila, vColumna].Tag = "Piso";
-                                    matEscenario[varPJFila, varPJColumna].Tag = "Piso";
-                                    varPJFila = vFila;
-                                    varPJColumna = vColumna;
-                                    matEscenario[varPJFila, varPJColumna].BringToFront();
-                                }
-                                frmEnfrentamiento.varPuntosPJ = 0;
-                                break;
-                            #endregion
-
-                            default:
-                                break;
-                        }
-                        #endregion
-                        vFila = varPJFila;   
-                    }
-                    else
-                    {
-                        MessageBox.Show("¿A donde queres ir?");
-                    }
-                   break;
-                #endregion
-
-                #region DOWN
+                    TryMove(varPJFila - 1, varPJColumna);
+                    break;
                 case Keys.Down:
-                   
-                    switch (Dificultad)
-                    {
-                        #region NIVEL 1
-                            //Mientras la fila sea menor a la cantidad de filas de la matriz (contando desde "0") podrá seguir bajando
-                        case 1:
-                            if (vFila < 3)
-                            {
-                                vFila += 1;
-                                #region Pregunto que hay en la siguiente posición y hago el procedimiento correspondiente
-                                switch (matEscenario[vFila, vColumna].Tag.ToString())
-                                {
-                                    #region Piso
-                                    case "Piso":
-                                        //matEscenario[varPJFila, varPJColumna].Location = new Point(matEscenario[varPJFila, varPJColumna].Location.X, matEscenario[vFila, vColumna].Location.Y);
-                                        
-                                        matEscenario[vFila, vColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                        matEscenario[varPJFila, varPJColumna].Image = null;
-                                        varPJFila = vFila;
-                                        matEscenario[varPJFila, varPJColumna].BringToFront();
-                                        
-
-                                        break;
-                                    #endregion
-
-                                    #region Portal Azul
-                                    case "Portal Azul":
-                                        matEscenario[varPPortalNFila, varPPortalNColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                        matEscenario[varPJFila, varPJColumna].Image = null;
-                                        varPJFila = varPPortalNFila;
-                                        varPJColumna = varPPortalNColumna;
-                                        vFila = varPPortalNFila;
-                                        vColumna = varPPortalNColumna;
-                                        matEscenario[varPJFila, varPJColumna].BringToFront();
-                                        break;
-                                    #endregion
-
-                                    #region Portal Naranja
-                                    case "Portal Naranja":
-                                        matEscenario[varPPortalAFila, varPPortalAColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                       matEscenario[varPJFila, varPJColumna].Image = null;
-                                       varPJFila = varPPortalAFila;
-                                       varPJColumna = varPPortalAColumna;
-                                       vFila = varPPortalAFila;
-                                       vColumna = varPPortalAColumna;
-                                       matEscenario[varPJFila, varPJColumna].BringToFront();;
-                                        break;
-                                    #endregion
-
-                                    #region Cubo de Compañía
-                                    case "Cubo de Compañía":
-                                        MessageBox.Show("Aquí hay un cubo de compañia, intenta avanzar por otro sector");
-                                        break;
-                                    #endregion
-
-                                    #region Glados
-                                    case "Glados":
-                                        MessageBox.Show("¡Ganaste!");
-                                        frmPrincipal.ActiveForm.Close();
-                                        break;
-                                    #endregion
-
-                                    #region Torreta
-                                    case "Torreta":
-                                frmEnfrentamiento Enfrentamiento = new frmEnfrentamiento();
-                                Enfrentamiento.Show();
-
-
-                                if (frmEnfrentamiento.varPuntosPJ > 0)
-                                {
-                                    matEscenario[vFila, vColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                    matEscenario[varPJFila, varPJColumna].Image = null;
-                                    matEscenario[vFila, vColumna].Tag = "Piso";
-                                    matEscenario[varPJFila, varPJColumna].Tag = "Piso";
-                                    varPJFila = vFila;
-                                    varPJColumna = vColumna;
-                                    matEscenario[varPJFila, varPJColumna].BringToFront();
-                                }
-                                frmEnfrentamiento.varPuntosPJ = 0;
-                                        break;
-                                    #endregion
-
-                                    default:
-                                        break;
-                                }
-                                #endregion
-                                vFila = varPJFila;
-                            }
-
-                            else
-                            {
-                                MessageBox.Show("¿A donde queres ir?");
-                            }
-                            break;
-                        #endregion
-
-                        #region NIVEL 2
-                        case 2:
-                            //Mientras la fila sea menor a la cantidad de filas de la matriz (contando desde "0") podrá seguir bajando
-                            if (vFila < 7)
-                           {
-                                vFila += 1;
-                                #region Pregunto que hay en la siguiente posición y hago el procedimiento correspondiente
-                                switch (matEscenario[vFila, vColumna].Tag.ToString())
-                                {
-                                    #region Piso
-                                    case "Piso":
-                                        //matEscenario[varPJFila, varPJColumna].Location = new Point(matEscenario[varPJFila, varPJColumna].Location.X, matEscenario[vFila, vColumna].Location.Y);
-                                        matEscenario[vFila, vColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                        matEscenario[varPJFila, varPJColumna].Image = null;
-                                        varPJFila = vFila;
-                                        matEscenario[varPJFila, varPJColumna].BringToFront();
-                                        
-                                        break;
-                                    #endregion
-
-                                    #region Portal Azul
-                                    case "Portal Azul":
-                                        matEscenario[varPPortalNFila, varPPortalNColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                        matEscenario[varPJFila, varPJColumna].Image = null;
-                                        varPJFila = varPPortalNFila;
-                                        varPJColumna = varPPortalNColumna;
-                                        vFila = varPPortalNFila;
-                                        vColumna = varPPortalNColumna;
-                                        matEscenario[varPJFila, varPJColumna].BringToFront();
-                                        break;
-                                    #endregion
-
-                                    #region Portal Naranja
-                                    case "Portal Naranja":
-                                        matEscenario[varPPortalAFila, varPPortalAColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                       matEscenario[varPJFila, varPJColumna].Image = null;
-                                       varPJFila = varPPortalAFila;
-                                       varPJColumna = varPPortalAColumna;
-                                       vFila = varPPortalAFila;
-                                       vColumna = varPPortalAColumna;
-                                       matEscenario[varPJFila, varPJColumna].BringToFront();;
-                                        break;
-                                    #endregion
-
-                                    #region Cubo de Compañía
-                                    case "Cubo de Compañía":
-                                        MessageBox.Show("Aquí hay un cubo de compañia, intenta avanzar por otro sector");
-                                        break;
-                                    #endregion
-
-                                    #region Glados
-                                    case "Glados":
-                                        MessageBox.Show("¡Ganaste!");
-                                        frmPrincipal.ActiveForm.Close();
-                                        break;
-                                    #endregion
-
-                                    #region Torreta
-                                    case "Torreta":
-                                frmEnfrentamiento Enfrentamiento = new frmEnfrentamiento();
-                                Enfrentamiento.Show();
-
-
-                                if (frmEnfrentamiento.varPuntosPJ > 0)
-                                {
-                                    matEscenario[vFila, vColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                    matEscenario[varPJFila, varPJColumna].Image = null;
-                                    matEscenario[vFila, vColumna].Tag = "Piso";
-                                    matEscenario[varPJFila, varPJColumna].Tag = "Piso";
-                                    varPJFila = vFila;
-                                    varPJColumna = vColumna;
-                                    matEscenario[varPJFila, varPJColumna].BringToFront();
-                                }
-                                frmEnfrentamiento.varPuntosPJ = 0;
-                                        break;
-                                    #endregion
-
-                                    default:
-                                        break;
-                                }
-                                #endregion
-                                vFila = varPJFila;
-                            }
-                            else
-                            {
-                                MessageBox.Show("¿A donde queres ir?");
-                            }
-                            break;
-                           
-                        #endregion
-
-                        #region NIVEL 3
-
-                        case 3:
-                            //Mientras la fila sea menor a la cantidad de filas de la matriz (contando desde "0") podrá seguir bajando
-                           if (vFila < 9)
-                           {
-                               vFila += 1;
-                               #region Pregunto que hay en la siguiente posición y hago el procedimiento correspondiente
-                               switch (matEscenario[vFila, vColumna].Tag.ToString())
-                               {
-                                   #region Piso
-                                   case "Piso":
-                                       
-                                        matEscenario[vFila, vColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                        matEscenario[varPJFila, varPJColumna].Image = null;
-                                        varPJFila = vFila;
-                                        matEscenario[varPJFila, varPJColumna].BringToFront();
-                                       
-
-                                       break;
-                                   #endregion
-
-                                   #region Portal Azul
-                                   case "Portal Azul":
-                                       matEscenario[varPPortalNFila, varPPortalNColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                       matEscenario[varPJFila, varPJColumna].Image = null;
-                                       varPJFila = varPPortalNFila;
-                                       varPJColumna = varPPortalNColumna;
-                                       vFila = varPPortalNFila;
-                                       vColumna = varPPortalNColumna;
-                                       matEscenario[varPJFila, varPJColumna].BringToFront();
-                                       break;
-                                   #endregion
-
-                                   #region Portal Naranja
-                                   case "Portal Naranja":
-                                        matEscenario[varPPortalAFila, varPPortalAColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                       matEscenario[varPJFila, varPJColumna].Image = null;
-                                       varPJFila = varPPortalAFila;
-                                       varPJColumna = varPPortalAColumna;
-                                       vFila = varPPortalAFila;
-                                       vColumna = varPPortalAColumna;
-                                       matEscenario[varPJFila, varPJColumna].BringToFront();;
-                                       break;
-                                   #endregion
-
-                                   #region Cubo de Compañía
-                                   case "Cubo de Compañía":
-                                       MessageBox.Show("Aquí hay un cubo de compañia, intenta avanzar por otro sector");
-                                       break;
-                                   #endregion
-
-                                   #region Glados
-                                   case "Glados":
-                                       MessageBox.Show("¡Ganaste!");
-                                       frmPrincipal.ActiveForm.Close();
-                                       break;
-                                   #endregion
-
-                                   #region Torreta
-                                   case "Torreta":
-                                       frmEnfrentamiento Enfrentamiento = new frmEnfrentamiento();
-                                Enfrentamiento.Show();
-
-
-                                if (frmEnfrentamiento.varPuntosPJ > 0)
-                                {
-                                    matEscenario[vFila, vColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                    matEscenario[varPJFila, varPJColumna].Image = null;
-                                    matEscenario[vFila, vColumna].Tag = "Piso";
-                                    matEscenario[varPJFila, varPJColumna].Tag = "Piso";
-                                    varPJFila = vFila;
-                                    varPJColumna = vColumna;
-                                    matEscenario[varPJFila, varPJColumna].BringToFront();
-                                }
-                                frmEnfrentamiento.varPuntosPJ = 0;
-
-
-                                        break;
-                                   #endregion
-
-                                   default:
-                                       break;
-                               }
-                               #endregion
-                               vFila = varPJFila;
-                           }
-                           else
-                           {
-                               MessageBox.Show("¿A donde queres ir?");
-                           }
-                           break;
-                            
-                        #endregion
-
-                        default:
-                               break;
-                    }
-                    
+                    TryMove(varPJFila + 1, varPJColumna);
                     break;
-                #endregion
-
-                #region RIGHT
                 case Keys.Right:
-                    
-                    switch (Dificultad)
-                    {
-                        #region NIVEL 1
-                        case 1:
-                            if (vColumna < 3)
-                            {
-                                vColumna += 1;
-                                switch (matEscenario[vFila, vColumna].Tag.ToString())
-                                {
-                                    #region Piso
-                                    case "Piso":
-                                        matEscenario[vFila, vColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                        matEscenario[varPJFila, varPJColumna].Image = null;
-                                        varPJColumna = vColumna;
-                                        matEscenario[varPJFila, varPJColumna].BringToFront();
-
-                                        break;
-                                    #endregion
-
-                                    #region Portal Azul
-                                    case "Portal Azul":
-                                       matEscenario[varPPortalNFila, varPPortalNColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                       matEscenario[varPJFila, varPJColumna].Image = null;
-                                       varPJFila = varPPortalNFila;
-                                       varPJColumna = varPPortalNColumna;
-                                        vFila = varPPortalNFila;
-                                        vColumna = varPPortalNColumna;
-                                       matEscenario[varPJFila, varPJColumna].BringToFront();
-                                        break;
-                                    #endregion
-
-                                    #region Portal Naranja
-                                    case "Portal Naranja":
-                                        matEscenario[varPPortalAFila, varPPortalAColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                       matEscenario[varPJFila, varPJColumna].Image = null;
-                                       varPJFila = varPPortalAFila;
-                                       varPJColumna = varPPortalAColumna;
-                                       vFila = varPPortalAFila;
-                                       vColumna = varPPortalAColumna;
-                                       matEscenario[varPJFila, varPJColumna].BringToFront();;
-                                        break;
-                                    #endregion
-
-                                    #region Cubo de Compañía
-                                    case "Cubo de Compañía":
-                                        MessageBox.Show("Aquí hay un cubo de compañia, intenta avanzar por otro sector");
-                                        break;
-                                    #endregion
-
-                                    #region Glados
-                                    case "Glados":
-                                        MessageBox.Show("¡Ganaste!");
-                                        frmPrincipal.ActiveForm.Close();
-                                        break;
-                                    #endregion
-
-                                    #region Torreta
-                                    case "Torreta":
-                                frmEnfrentamiento Enfrentamiento = new frmEnfrentamiento();
-                                Enfrentamiento.Show();
-
-
-                                if (frmEnfrentamiento.varPuntosPJ > 0)
-                                {
-                                    matEscenario[vFila, vColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                    matEscenario[varPJFila, varPJColumna].Image = null;
-                                    matEscenario[vFila, vColumna].Tag = "Piso";
-                                    matEscenario[varPJFila, varPJColumna].Tag = "Piso";
-                                    varPJFila = vFila;
-                                    varPJColumna = vColumna;
-                                    matEscenario[varPJFila, varPJColumna].BringToFront();
-                                }
-                                frmEnfrentamiento.varPuntosPJ = 0;
-                                        break;
-                                    #endregion
-
-                                    default:
-                                        break;
-                                }
-                                vColumna = varPJColumna;
-                            }
-                            else
-                            {
-                                MessageBox.Show("¿A donde queres ir?");
-                            }
-                            break;
-                        #endregion
-
-                        #region NIVEL 2
-                        case 2:
-                            if (vColumna < 7)
-                            {
-                                vColumna += 1;
-                                switch (matEscenario[vFila, vColumna].Tag.ToString())
-                                {
-                                    #region Piso
-                                    case "Piso":
-                                        matEscenario[vFila, vColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                        matEscenario[varPJFila, varPJColumna].Image = null;
-                                        varPJColumna = vColumna;
-                                        matEscenario[varPJFila, varPJColumna].BringToFront();
-
-                                        break;
-                                    #endregion
-
-                                    #region Portal Azul
-                                    case "Portal Azul":
-                                       matEscenario[varPPortalNFila, varPPortalNColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                       matEscenario[varPJFila, varPJColumna].Image = null;
-                                       varPJFila = varPPortalNFila;
-                                       varPJColumna = varPPortalNColumna;
-                                        vFila = varPPortalNFila;
-                                        vColumna = varPPortalNColumna;
-                                       matEscenario[varPJFila, varPJColumna].BringToFront();
-                                        break;
-                                    #endregion
-
-                                    #region Portal Naranja
-                                    case "Portal Naranja":
-                                        matEscenario[varPPortalAFila, varPPortalAColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                       matEscenario[varPJFila, varPJColumna].Image = null;
-                                       varPJFila = varPPortalAFila;
-                                       varPJColumna = varPPortalAColumna;
-                                       vFila = varPPortalAFila;
-                                       vColumna = varPPortalAColumna;
-                                       matEscenario[varPJFila, varPJColumna].BringToFront();;
-                                        break;
-                                    #endregion
-
-                                    #region Cubo de Compañía
-                                    case "Cubo de Compañía":
-                                        MessageBox.Show("Aquí hay un cubo de compañia, intenta avanzar por otro sector");
-                                        break;
-                                    #endregion
-
-                                    #region Glados
-                                    case "Glados":
-                                        MessageBox.Show("¡Ganaste!");
-                                        frmPrincipal.ActiveForm.Close();
-                                        break;
-                                    #endregion
-
-                                    #region Torreta
-                                    case "Torreta":
-                                frmEnfrentamiento Enfrentamiento = new frmEnfrentamiento();
-                                Enfrentamiento.Show();
-
-
-                                if (frmEnfrentamiento.varPuntosPJ > 0)
-                                {
-                                    matEscenario[vFila, vColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                    matEscenario[varPJFila, varPJColumna].Image = null;
-                                    matEscenario[vFila, vColumna].Tag = "Piso";
-                                    matEscenario[varPJFila, varPJColumna].Tag = "Piso";
-                                    varPJFila = vFila;
-                                    varPJColumna = vColumna;
-                                    matEscenario[varPJFila, varPJColumna].BringToFront();
-                                }
-                                frmEnfrentamiento.varPuntosPJ = 0;
-
-                                        break;
-                                    #endregion
-
-                                    default:
-                                        break;
-                                }
-                                vColumna = varPJColumna;
-                            }
-                            else
-                            {
-                                MessageBox.Show("¿A donde queres ir?");
-                            }
-                            break;
-                        #endregion
-
-                        #region NIVEL 3
-                        case 3:
-                            if (vColumna < 9)
-                            {
-                                vColumna += 1;
-                                switch (matEscenario[vFila, vColumna].Tag.ToString())
-                                {
-                                    #region Piso
-                                    case "Piso":
-                                        matEscenario[vFila, vColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                        matEscenario[varPJFila, varPJColumna].Image = null;
-                                        varPJColumna = vColumna;
-                                        matEscenario[varPJFila, varPJColumna].BringToFront();
-
-                                        break;
-                                    #endregion
-
-                                    #region Portal Azul
-                                    case "Portal Azul":
-                                       matEscenario[varPPortalNFila, varPPortalNColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                       matEscenario[varPJFila, varPJColumna].Image = null;
-                                       varPJFila = varPPortalNFila;
-                                       varPJColumna = varPPortalNColumna;
-                                        vFila = varPPortalNFila;
-                                        vColumna = varPPortalNColumna;
-                                       matEscenario[varPJFila, varPJColumna].BringToFront();
-                                        break;
-                                    #endregion
-
-                                    #region Portal Naranja
-                                    case "Portal Naranja":
-                                        matEscenario[varPPortalAFila, varPPortalAColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                       matEscenario[varPJFila, varPJColumna].Image = null;
-                                       varPJFila = varPPortalAFila;
-                                       varPJColumna = varPPortalAColumna;
-                                       vFila = varPPortalAFila;
-                                       vColumna = varPPortalAColumna;
-                                       matEscenario[varPJFila, varPJColumna].BringToFront();;
-                                        break;
-                                    #endregion
-
-                                    #region Cubo de Compañía
-                                    case "Cubo de Compañía":
-                                        MessageBox.Show("Aquí hay un cubo de compañia, intenta avanzar por otro sector");
-                                        break;
-                                    #endregion
-
-                                    #region Glados
-                                    case "Glados":
-                                        MessageBox.Show("¡Ganaste!");
-                                        frmPrincipal.ActiveForm.Close();
-                                        break;
-                                    #endregion
-
-                                    #region Torreta
-                                    case "Torreta":
-                                frmEnfrentamiento Enfrentamiento = new frmEnfrentamiento();
-                                Enfrentamiento.Show();
-
-
-                                if (frmEnfrentamiento.varPuntosPJ > 0)
-                                {
-                                    matEscenario[vFila, vColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                    matEscenario[varPJFila, varPJColumna].Image = null;
-                                    matEscenario[vFila, vColumna].Tag = "Piso";
-                                    matEscenario[varPJFila, varPJColumna].Tag = "Piso";
-                                    varPJFila = vFila;
-                                    varPJColumna = vColumna;
-                                    matEscenario[varPJFila, varPJColumna].BringToFront();
-                                }
-                                frmEnfrentamiento.varPuntosPJ = 0;
-                                        break;
-                                    #endregion
-                                    default:
-                                        break;
-                                }
-                                vColumna = varPJColumna;
-                            }
-                            else
-                            {
-                                MessageBox.Show("¿A donde queres ir?");
-                            }
-                            break;
-                        #endregion
-                        default:
-                            break;
-                    }
+                    TryMove(varPJFila, varPJColumna + 1);
                     break;
-                #endregion
-
-                #region LEFT
                 case Keys.Left:
-                    
-                    //Si la columna es mayor a 0
-                    if (vColumna > 0)
-                    {
-                        vColumna -= 1;
-                        #region Pregunto que hay en la siguiente posición y hago el procedimiento correspondiente
-                        switch (matEscenario[vFila, vColumna].Tag.ToString())
-                        {
-                            #region Piso
-                            case "Piso":
-                                matEscenario[vFila, vColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                matEscenario[varPJFila, varPJColumna].Image = null;
-                                varPJColumna = vColumna;
-                                matEscenario[varPJFila, varPJColumna].BringToFront();
-
-                                break;
-                            #endregion
-
-                            #region Portal Azul
-                            case "Portal Azul":
-                                matEscenario[varPPortalNFila, varPPortalNColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                matEscenario[varPJFila, varPJColumna].Image = null;
-                                varPJFila = varPPortalNFila;
-                                varPJColumna = varPPortalNColumna;
-                                vFila = varPPortalNFila;
-                                vColumna = varPPortalNColumna;
-                                matEscenario[varPJFila, varPJColumna].BringToFront();
-                                break;
-                            #endregion
-
-                            #region Portal Naranja
-                            case "Portal Naranja":
-                                        matEscenario[varPPortalAFila, varPPortalAColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                       matEscenario[varPJFila, varPJColumna].Image = null;
-                                       varPJFila = varPPortalAFila;
-                                       varPJColumna = varPPortalAColumna;
-                                       vFila = varPPortalAFila;
-                                       vColumna = varPPortalAColumna;
-                                       matEscenario[varPJFila, varPJColumna].BringToFront();;
-                                break;
-                            #endregion
-
-                            #region Cubo de Compañía
-                            case "Cubo de Compañía":
-                                MessageBox.Show("Aquí hay un cubo de compañia, intenta avanzar por otro sector");
-                                break;
-                            #endregion
-
-                            #region Glados
-                            case "Glados":
-                                MessageBox.Show("¡Ganaste!");
-                                frmPrincipal.ActiveForm.Close();
-                                break;
-                            #endregion
-
-                            #region Torreta
-                            case "Torreta":
-                                
-                                frmEnfrentamiento Enfrentamiento = new frmEnfrentamiento();
-                                Enfrentamiento.Show();
-
-                                
-                                if (frmEnfrentamiento.varPuntosPJ > 0)
-                                {
-                                    matEscenario[vFila, vColumna].Image = matEscenario[varPJFila, varPJColumna].Image;
-                                    matEscenario[varPJFila, varPJColumna].Image = null;
-                                    matEscenario[vFila, vColumna].Tag = "Piso";
-                                    matEscenario[varPJFila, varPJColumna].Tag = "Piso";
-                                    varPJFila = vFila;
-                                    varPJColumna = vColumna;
-                                    matEscenario[varPJFila, varPJColumna].BringToFront();
-                                }
-
-                                frmEnfrentamiento.varPuntosPJ = 0;
-                                
-                                break;
-                            #endregion
-
-                            default:
-                                break;
-                        }
-                        #endregion
-                        vColumna = varPJColumna;
-                    }
-                    else
-                    {
-                        MessageBox.Show("¿A donde queres ir?");
-                    }
-                   
+                    TryMove(varPJFila, varPJColumna - 1);
                     break;
-                #endregion
-
                 default:
                     break;
             }
-            #endregion
+        }
+
+        int MaxRowIndex()
+        {
+            switch (Dificultad)
+            {
+                case 1: return 3;
+                case 2: return 7;
+                case 3: return 9;
+                default: return 3;
+            }
+        }
+
+        int MaxColIndex()
+        {
+            switch (Dificultad)
+            {
+                case 1: return 3;
+                case 2: return 7;
+                case 3: return 9;
+                default: return 3;
+            }
+        }
+
+        bool IsWithinBounds(int row, int col)
+        {
+            return row >= 0 && col >= 0 && row <= MaxRowIndex() && col <= MaxColIndex();
+        }
+
+        void TryMove(int targetRow, int targetCol)
+        {
+            if (!IsWithinBounds(targetRow, targetCol))
+            {
+                MessageBox.Show("¿A donde queres ir?");
+                return;
+            }
+
+            string tag = matEscenario[targetRow, targetCol].Tag?.ToString();
+            switch (tag)
+            {
+                case "Piso":
+                    MovePlayerToCell(targetRow, targetCol);
+                    break;
+                case "Portal Azul":
+                    TeleportPlayer(varPPortalNFila, varPPortalNColumna);
+                    break;
+                case "Portal Naranja":
+                    TeleportPlayer(varPPortalAFila, varPPortalAColumna);
+                    break;
+                case "Cubo de Compañía":
+                    MessageBox.Show("Aquí hay un cubo de compañia, intenta avanzar por otro sector");
+                    break;
+                case "Glados":
+                    MessageBox.Show("¡Ganaste!");
+                    frmPrincipal.ActiveForm.Close();
+                    break;
+                case "Torreta":
+                    HandleTurretEncounter(targetRow, targetCol);
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        void MovePlayerToCell(int destRow, int destCol)
+        {
+            int originRow = varPJFila;
+            int originCol = varPJColumna;
+
+            matEscenario[destRow, destCol].Image = matEscenario[originRow, originCol].Image;
+            matEscenario[originRow, originCol].Image = null;
+
+            varPJFila = destRow;
+            varPJColumna = destCol;
+            vFila = varPJFila;
+            vColumna = varPJColumna;
+            matEscenario[varPJFila, varPJColumna].BringToFront();
+
+            RestoreCellBackground(originRow, originCol);
+            RestoreCellBackground(destRow, destCol);
+        }
+
+        void TeleportPlayer(int destRow, int destCol)
+        {
+            int originRow = varPJFila;
+            int originCol = varPJColumna;
+
+            matEscenario[destRow, destCol].Image = matEscenario[originRow, originCol].Image;
+            matEscenario[originRow, originCol].Image = null;
+
+            varPJFila = destRow;
+            varPJColumna = destCol;
+            vFila = destRow;
+            vColumna = destCol;
+            matEscenario[varPJFila, varPJColumna].BringToFront();
+
+            RestoreCellBackground(originRow, originCol);
+            RestoreCellBackground(destRow, destCol);
+        }
+
+        void HandleTurretEncounter(int targetRow, int targetCol)
+        {
+            frmEnfrentamiento enfrentamiento = new frmEnfrentamiento();
+            enfrentamiento.Show();
+
+            if (frmEnfrentamiento.varPuntosPJ > 0)
+            {
+                int originRow = varPJFila;
+                int originCol = varPJColumna;
+                MovePlayerToCell(targetRow, targetCol);
+                matEscenario[originRow, originCol].Tag = "Piso";
+                matEscenario[varPJFila, varPJColumna].Tag = "Piso";
+                RestoreCellBackground(originRow, originCol);
+                RestoreCellBackground(varPJFila, varPJColumna);
+            }
+            frmEnfrentamiento.varPuntosPJ = 0;
+        }
+
+        void RestoreCellBackground(int row, int col)
+        {
+            if (row < 0 || col < 0 || row > matEscenario.GetUpperBound(0) || col > matEscenario.GetUpperBound(1))
+                return;
+
+            var cell = matEscenario[row, col];
+            string tag = cell.Tag?.ToString();
+            switch (tag)
+            {
+                case "Portal Azul":
+                    cell.BackgroundImage = Properties.Resources.portalblue;
+                    cell.BackgroundImageLayout = ImageLayout.Stretch;
+                    break;
+                case "Portal Naranja":
+                    cell.BackgroundImage = Properties.Resources.Portal_orange;
+                    cell.BackgroundImageLayout = ImageLayout.Stretch;
+                    break;
+                case "Cubo de Compañía":
+                    cell.BackgroundImage = Properties.Resources.cubodecompañia;
+                    cell.BackgroundImageLayout = ImageLayout.Stretch;
+                    break;
+                case "Glados":
+                    cell.BackgroundImage = Properties.Resources.GLaDOS_Potato;
+                    cell.BackgroundImageLayout = ImageLayout.Stretch;
+                    break;
+                case "Torreta":
+                    cell.BackgroundImage = Properties.Resources.turret;
+                    cell.BackgroundImageLayout = ImageLayout.Stretch;
+                    break;
+                case "Piso":
+                default:
+                    cell.BackgroundImage = null;
+                    break;
+            }
         }
         #endregion
-
-
-        
     }
-       
-
-       
 }
-                  

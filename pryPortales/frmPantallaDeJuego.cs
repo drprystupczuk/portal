@@ -19,7 +19,7 @@ namespace pryPortales
         }
 
 
-        claseNivel objNivel1 = new claseNivel();
+        ClaseNivel objNivel1 = new ClaseNivel();
         
 
 

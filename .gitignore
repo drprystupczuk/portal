@@ -1,0 +1,47 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build folders
+[Bb]in/
+[Oo]bj/
+**/bin/
+**/obj/
+
+# Build outputs
+*.exe
+*.dll
+*.pdb
+*.cache
+
+# NuGet
+*.nupkg
+packages/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sublime-workspace
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+~$*
+Thumbs.db
+.DS_Store
+
+# User-specific files
+*.userprefs
+
+# Generated AssemblyInfo from build
+**/obj/**/AssemblyAttributes.cs

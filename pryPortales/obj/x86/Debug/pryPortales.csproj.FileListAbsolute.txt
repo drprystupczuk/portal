@@ -168,3 +168,15 @@ E:\Users\diegoprystu\OneDrive\Educacion\IES\SVV\4°\ESTRUCTURA DE DATOS\TRABAJO 
 E:\Users\diegoprystu\OneDrive\Educacion\IES\SVV\4°\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.csproj.CoreCompileInputs.cache
 E:\Users\diegoprystu\OneDrive\Educacion\IES\SVV\4°\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.exe
 E:\Users\diegoprystu\OneDrive\Educacion\IES\SVV\4°\ESTRUCTURA DE DATOS\TRABAJO PRACTICO GENERAL\Prystupczuk\pryPortales2\pryPortales\obj\x86\Debug\pryPortales.pdb
+D:\Git\C#\Desktop\Portal\pryPortales\bin\Debug\pryPortales.exe
+D:\Git\C#\Desktop\Portal\pryPortales\bin\Debug\pryPortales.pdb
+D:\Git\C#\Desktop\Portal\pryPortales\obj\x86\Debug\pryPortales.csproj.AssemblyReference.cache
+D:\Git\C#\Desktop\Portal\pryPortales\obj\x86\Debug\pryPortales.frmEnfrentamiento.resources
+D:\Git\C#\Desktop\Portal\pryPortales\obj\x86\Debug\pryPortales.frmExtra.resources
+D:\Git\C#\Desktop\Portal\pryPortales\obj\x86\Debug\pryPortales.frmPrincipal.resources
+D:\Git\C#\Desktop\Portal\pryPortales\obj\x86\Debug\pryPortales.frmPantalla.resources
+D:\Git\C#\Desktop\Portal\pryPortales\obj\x86\Debug\pryPortales.Properties.Resources.resources
+D:\Git\C#\Desktop\Portal\pryPortales\obj\x86\Debug\pryPortales.csproj.GenerateResource.cache
+D:\Git\C#\Desktop\Portal\pryPortales\obj\x86\Debug\pryPortales.csproj.CoreCompileInputs.cache
+D:\Git\C#\Desktop\Portal\pryPortales\obj\x86\Debug\pryPortales.exe
+D:\Git\C#\Desktop\Portal\pryPortales\obj\x86\Debug\pryPortales.pdb
